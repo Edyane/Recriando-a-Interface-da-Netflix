@@ -13,6 +13,7 @@
 body {
     background: var(--preta);
     font-family: 'Gotham', Times, serif;
+    color: white;
 }
 
 header .container {
