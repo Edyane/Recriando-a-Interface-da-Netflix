@@ -1,36 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix Clone</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
-                <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Bombando</a>
-                <a href="#">Minha Lista</a>
-            </nav>
-        </div>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light margin">
+        <a class="navbar-brand" href="#">
+            <img src="imagens/netflix-logo.svg" width="100">
+        </a>
+    </nav>
 
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">ARCANE</h3>
-                <p class="descricao">Em meio ao conflito entre as cidades-gêmeas
-                    de Piltover e Zaun, duas irmãs lutam em lados
-                    opostos de uma guerra entre tecnologias mágicas
-                    e convicções incompatíveis.</p>
+                <h3 class="titulo"><b>Homem-Aranha: De Volta ao Lar</b></h3>
+                <p class="descricao">Depois de atuar ao lado dos Vingadores,
+                chegou a hora do pequeno Peter Parker (Tom Holland) voltar
+                para casa e para a sua vida, já não mais tão normal. Lutando
+                diariamente contra pequenos crimes nas redondezas, ele pensa
+                ter encontrado a missão de sua vida quando o terrível vilão
+                Abutre (Michael Keaton) surge amedrontando a cidade.</p>
                 <div class="botoes">
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
@@ -43,10 +41,46 @@
                 </div>
             </div>
         </div>
+
+        <div class="carrossel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="imagens/abominavel.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/breakingbad.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/fightclub.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/friends.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/interestelar.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/matrix.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/naruto.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/origem.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/sherlock.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagens/vikings.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="https://kit.fontawesome.com/c7a718ab03.js" crossorigin="anonymous"></script>
-
-
+    <script src="jsowl/jquery.min.js"></script>
+    <script src="jsowl/owl.carousel.min.js"></script>
+    <script src="jsowl/main.js"></script>
 </body>
 </html>
