@@ -1,6 +1,6 @@
-### Recriando a Interface da Netflix
+### Recriando a Interface da Netflix 🎞
 
-Recriando a Interface do Netflix - Projeto DIO (Bootcamp Impulso). Para a realização deste projeto foram utilizadas as seguintes tecnologias:
+Para a realização deste projeto foram utilizadas as seguintes tecnologias:
 * HTML, CSS e JavaScript
 * Bootstrap
 * jQuery
