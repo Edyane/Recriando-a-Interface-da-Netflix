@@ -1,11 +1,18 @@
+.fontes {
+    font-style: normal;
+    font-size: 15px;
+    font-family: 'helvetica';
+    color: rgb(253, 253, 253);
+}
+
 .navbar {
-    background-color: #000000;
+    text-align: center;
 }
 
 .margin {
    padding-bottom: 10px;
    padding-top: 10px;
-   padding-left: 20px;
+   padding-left: 30px;
 }
 
 :root{
@@ -25,33 +32,6 @@ body{
    color:white;
 }
 
-
-header .container{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Helvetica';
-    font-size:40px;
-}
-
-header nav a{
-    text-decoration:none;
-    color:#AAA;
-    margin-right: 10px;
-}
-
-
-header nav a:hover{
-    color:#fff;
-}
-
 .filme-principal{
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/imagens/spiderman.jpg');
@@ -66,7 +46,6 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
@@ -75,7 +54,7 @@ header nav a:hover{
 
 .filme-principal .titulo{
     margin-top: 15%;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'inherit', bold;
     color: rgb(255, 255, 255);
 }
